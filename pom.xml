@@ -93,6 +93,13 @@
 			<artifactId>esapi</artifactId>
 			<version>2.1.0.1</version>
 		</dependency>
+		<!-- rjg: override commons-io to fix vulnerability in commons-io:2.2 transient dep in esapi -->
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
 		<dependency>
 			<groupId>ognl</groupId>
 			<artifactId>ognl</artifactId>
